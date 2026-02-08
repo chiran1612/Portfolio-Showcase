@@ -44,6 +44,34 @@ export const resumeData = {
       role: "Workforce Management Platform",
       description: "Developed and optimized REST APIs for task, project, and leave management. Improved system performance and scalability for enterprise data loads.",
       tech: ["Java", "REST APIs", "MongoDB", "Postman"]
+    },
+    {
+      name: "Movies App",
+      link: "https://github.com/chiran1612",
+      role: "React Web App",
+      description: "A movies web app built using React class components to browse and discover films.",
+      tech: ["React.js", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      name: "Jira Clone",
+      link: "https://github.com/chiran1612",
+      role: "Task Management Web App",
+      description: "A web application that implements CRUD operations for task management using vanilla JS and local storage.",
+      tech: ["JavaScript", "HTML", "CSS", "Local Storage"]
+    },
+    {
+      name: "To-do List",
+      link: "https://github.com/chiran1612",
+      role: "Productivity App",
+      description: "A simple and effective task management application to manage everyday tasks with persistent storage.",
+      tech: ["JavaScript", "HTML", "CSS", "jsdom"]
+    },
+    {
+      name: "Excel Clone",
+      link: "https://github.com/chiran1612",
+      role: "Spreadsheet Application",
+      description: "A functional spreadsheet clone focusing on data structures for cell management and calculations.",
+      tech: ["JavaScript", "HTML", "CSS"]
     }
   ],
   education: [
@@ -53,5 +81,9 @@ export const resumeData = {
       period: "2018 – 2023",
       grade: "CGPA: 9.0"
     }
+  ],
+  certifications: [
+    "Certified in Java Programming from 361 Degree Minds",
+    "Certified in C++ Programming from Udemy"
   ]
 };
