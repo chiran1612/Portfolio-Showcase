@@ -6,7 +6,7 @@ export const resumeData = {
   github: "https://chiran1612.github.io",
   summary: "Results-driven Software Development Engineer with 3.7 years of experience in Java backend development. Strong expertise in REST API design, MongoDB data modeling, and performance optimization using Nginx. Focused on building scalable, reliable systems and improving overall application efficiency.",
   skills: {
-    languages: ["Java", "SQL", "C", "C++"],
+    languages: ["Java 21", "SQL", "C", "C++"],
     frameworks: ["Spring Boot", "Nginx", "MongoDB", "AWS Lambda"],
     tools: ["Git", "Jenkins", "SonarLint", "JIRA", "Postman", "Robo 3T", "VS Code", "Eclipse"]
   },
@@ -30,21 +30,21 @@ export const resumeData = {
       link: "https://platform.qrrectly.com/login",
       role: "Billing Management System",
       description: "Designed and developed a backend system for Sales and Purchase domains. Implemented subscription workflows, billing, tax invoices, and vendor management. Architected end-to-end APIs and database schemas.",
-      tech: ["Java", "MongoDB", "REST APIs", "Robo 3T"]
+      tech: ["Java 21", "MongoDB", "REST APIs", "Robo 3T"]
     },
     {
       name: "Antrika",
       link: "https://antrika.ai/",
       role: "Workflow Automation Platform",
       description: "Implemented backend API layer for Git-based workflow automation. Built AI-driven task optimization features improving system efficiency by 50%.",
-      tech: ["Java", "REST APIs", "AWS Lambda", "MongoDB"]
+      tech: ["Java 21", "REST APIs", "AWS Lambda", "MongoDB"]
     },
     {
       name: "Tracwick",
       link: "https://go.trackwick.com/",
       role: "Workforce Management Platform",
       description: "Developed and optimized REST APIs for task, project, and leave management. Improved system performance and scalability for enterprise data loads.",
-      tech: ["Java", "REST APIs", "MongoDB", "Postman"]
+      tech: ["Java 21", "REST APIs", "MongoDB", "Postman"]
     },
     {
       name: "Movies App",
