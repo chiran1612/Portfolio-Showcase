@@ -14,7 +14,7 @@ export const resumeData = {
     {
       company: "Kaptune Media Pvt Ltd",
       role: "Software Development Engineer",
-      period: "2022 – Present",
+      period: "August 2022 – July 2026",
       description: [
         "Designed and maintained scalable RESTful APIs supporting multiple production systems.",
         "Automated Git operations by integrating GitHub, GitLab, and Bitbucket APIs for dynamic branch creation.",

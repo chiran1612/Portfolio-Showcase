@@ -58,8 +58,10 @@ export function Navbar() {
               <span className="text-primary/50 ml-1">/&gt;</span>
             </a>
           ))}
-          <Button variant="outline" size="sm" className="font-mono text-xs ml-4 border-primary/20 hover:bg-primary/10 hover:text-primary">
-            Resume.pdf
+          <Button variant="outline" size="sm" asChild className="font-mono text-xs ml-4 border-primary/20 hover:bg-primary/10 hover:text-primary">
+            <a href="/Chiranjeev_Resume_1783703124700.pdf" download="Chiranjeev_Singh_Resume.pdf">
+              Resume.pdf
+            </a>
           </Button>
         </div>
 
