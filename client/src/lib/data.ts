@@ -27,6 +27,7 @@ export const resumeData = {
   projects: [
     {
       name: "Qrrectly",
+      link: "https://platform.qrrectly.com/login",
       role: "Billing Management System",
       description: "Designed and developed a backend system for Sales and Purchase domains. Implemented subscription workflows, billing, tax invoices, and vendor management. Architected end-to-end APIs and database schemas.",
       tech: ["Java", "MongoDB", "REST APIs", "Robo 3T"]
