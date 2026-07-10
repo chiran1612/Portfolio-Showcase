@@ -4,7 +4,7 @@ export const resumeData = {
   email: "chiranjeevsingh1612@gmail.com",
   phone: "+91 8076388302",
   github: "https://chiran1612.github.io",
-  summary: "Results-driven Software Development Engineer with 3 years of experience in Java backend development. Strong expertise in REST API design, MongoDB data modeling, and performance optimization using Nginx. Focused on building scalable, reliable systems and improving overall application efficiency.",
+  summary: "Results-driven Software Development Engineer with 3.7 years of experience in Java backend development. Strong expertise in REST API design, MongoDB data modeling, and performance optimization using Nginx. Focused on building scalable, reliable systems and improving overall application efficiency.",
   skills: {
     languages: ["Java", "SQL", "C", "C++"],
     frameworks: ["Spring Boot", "Nginx", "MongoDB", "AWS Lambda"],
