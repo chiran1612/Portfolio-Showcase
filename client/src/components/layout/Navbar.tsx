@@ -19,6 +19,7 @@ export function Navbar() {
     { name: "Experience", href: "#experience" },
     { name: "Skills", href: "#skills" },
     { name: "Learning", href: "#learning" },
+    { name: "AI Experiments", href: "#ai-experiments" },
     { name: "Education", href: "#education" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },

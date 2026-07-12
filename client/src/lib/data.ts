@@ -88,6 +88,43 @@ export const resumeData = {
     description: "Through hands-on projects and continuous upskilling.",
     technologies: ["Spring Boot", "Docker", "Kubernetes", "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)"]
   },
+  aiExperiments: [
+    {
+      title: "AI Code Review Assistant",
+      description: "PR review suggestions using LLMs.",
+      icon: "Bot"
+    },
+    {
+      title: "MCP (Model Context Protocol)",
+      description: "Experiments with MCP servers and AI integrations.",
+      icon: "Plug"
+    },
+    {
+      title: "Agentic Coding",
+      description: "Workflows using Codex, Claude Code, Gemini CLI, etc.",
+      icon: "Zap"
+    },
+    {
+      title: "Prompt Engineering",
+      description: "Prompts for code generation, debugging, refactoring, and testing.",
+      icon: "MessageSquare"
+    },
+    {
+      title: "AI Workflow Automation",
+      description: "GitHub/GitLab automation powered by AI.",
+      icon: "RefreshCw"
+    },
+    {
+      title: "LLM Experiments",
+      description: "Compare models on coding tasks, debugging, and documentation.",
+      icon: "TestTube"
+    },
+    {
+      title: "Learning Notes",
+      description: "Key takeaways from experimenting with AI tools.",
+      icon: "Book"
+    }
+  ],
   certifications: [
     "Certified in Java Programming from 361 Degree Minds",
     "Certified in C++ Programming from Udemy"
