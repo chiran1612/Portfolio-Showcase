@@ -83,6 +83,11 @@ export const resumeData = {
       grade: "CGPA: 9.0"
     }
   ],
+  learning: {
+    title: "Currently Learning",
+    description: "Through hands-on projects and continuous upskilling.",
+    technologies: ["Spring Boot", "Docker", "Kubernetes", "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)"]
+  },
   certifications: [
     "Certified in Java Programming from 361 Degree Minds",
     "Certified in C++ Programming from Udemy"
