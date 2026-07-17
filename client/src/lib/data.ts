@@ -22,6 +22,16 @@ export const resumeData = {
         "Managed MongoDB databases for efficient querying and data maintenance.",
         "Improved system performance and request handling using Nginx configuration and tuning."
       ]
+    },
+    {
+      company: "Pepcoding",
+      role: "Data Structures, Algorithms & Web Development Intern",
+      period: "December 2021 – June 2022",
+      description: [
+        "Completed an intensive 6-month internship focusing on core Data Structures, Algorithms, and Web Development.",
+        "Strengthened problem-solving capabilities and built foundational web applications.",
+        "Demonstrated strong teamwork and coordination skills while working with peers on technical assignments."
+      ]
     }
   ],
   projects: [
