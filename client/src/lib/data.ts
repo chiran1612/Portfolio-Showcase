@@ -83,6 +83,14 @@ export const resumeData = {
       role: "Spreadsheet Application",
       description: "A functional spreadsheet clone focusing on data structures for cell management and calculations.",
       tech: ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      name: "Farmer Card App",
+      link: "https://farmer-card-production-2853.up.railway.app/",
+      github: "https://github.com/chiran1612/farmer-card-app-using-thymleaf-spring-boot",
+      role: "Containerized Deployment",
+      description: "Built a Spring Boot and Thymeleaf app, containerized with Docker, and deployed via Docker Hub to Railway.",
+      tech: ["Spring Boot", "Thymeleaf", "Docker", "Railway"]
     }
   ],
   education: [

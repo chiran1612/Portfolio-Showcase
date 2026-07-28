@@ -19,11 +19,18 @@ export function Projects() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-xl mb-2">{project.name}</CardTitle>
-                  {project.link && (
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
-                  )}
+                  <div className="flex gap-2">
+                    {(project as any).github && (
+                      <a href={(project as any).github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                        <Github className="w-5 h-5" />
+                      </a>
+                    )}
+                    {project.link && (
+                      <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                        <ExternalLink className="w-5 h-5" />
+                      </a>
+                    )}
+                  </div>
                 </div>
                 <Badge variant="secondary" className="w-fit mb-2">{project.role}</Badge>
               </CardHeader>
