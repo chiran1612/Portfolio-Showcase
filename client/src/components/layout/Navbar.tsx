@@ -62,7 +62,7 @@ export function Navbar() {
             </a>
           ))}
           <Button variant="outline" size="sm" asChild className="font-mono text-xs ml-4 border-primary/20 hover:bg-primary/10 hover:text-primary">
-            <a href="/Chiranjeev_Resume_1783703124700.pdf" download="Chiranjeev_Singh_Resume.pdf">
+            <a href="/Chiranjeev_Singh_Resume.pdf" download="Chiranjeev_Singh_Resume.pdf">
               Resume.pdf
             </a>
           </Button>

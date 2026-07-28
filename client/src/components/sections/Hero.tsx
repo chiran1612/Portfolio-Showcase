@@ -67,9 +67,9 @@ export function Hero() {
               <div className="mb-4">
                 <span className="text-primary">user@chiran:~$</span> java -version
                 <div className="text-foreground mt-1">
-                  java version "24.0.1" 2025-04-15 LTS<br/>
-                  Java(TM) SE Runtime Environment 24<br/>
-                  Java HotSpot(TM) 64-Bit Server VM 24
+                  java version "24.0.1" 2025-04-15<br/>
+                  Java(TM) SE Runtime Environment (build 24.0.1+9)<br/>
+                  Java HotSpot(TM) 64-Bit Server VM (build 24.0.1+9)
                 </div>
               </div>
               
@@ -78,9 +78,9 @@ export function Hero() {
                 <div className="text-foreground mt-1">
                   {`{`}
                   <div className="pl-4">
-                    "backend": ["Spring Boot", "Java 24", "Node"],<br/>
+                    "backend": ["Spring Boot", "Java", "REST APIs"],<br/>
                     "database": ["MongoDB", "SQL"],<br/>
-                    "cloud": ["AWS Lambda", "Nginx"]
+                    "devops": ["Docker", "AWS Lambda", "Nginx"]
                   </div>
                   {`}`}
                 </div>

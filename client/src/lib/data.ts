@@ -1,14 +1,19 @@
 export const resumeData = {
   name: "Chiranjeev Singh",
-  title: "Software Development Engineer",
+  title: "Java Backend Developer",
   email: "chiranjeevsingh1612@gmail.com",
   phone: "+91 8076388302",
   github: "https://chiran1612.github.io",
-  summary: "Results-driven Software Development Engineer with 3.7 years of experience in Java backend development. Strong expertise in REST API design, MongoDB data modeling, and performance optimization using Nginx. Focused on building scalable, reliable systems and improving overall application efficiency.",
+  linkedin: "https://www.linkedin.com/in/chiranjeevsingh1612",
+  summary: "Java Backend Developer with 3+ years of experience building scalable REST APIs, Spring Boot-oriented backend services, and enterprise platforms using Java and MongoDB. Skilled in API integration, backend performance optimization, Nginx configuration, containerized deployment with Docker, and AI-assisted development workflows.",
   skills: {
-    languages: ["Java 24", "SQL", "C", "C++"],
-    frameworks: ["Spring Boot", "Nginx", "MongoDB", "AWS Lambda"],
-    tools: ["Git", "Jenkins", "SonarLint", "JIRA", "Postman", "Robo 3T", "VS Code", "Eclipse"]
+    languages: ["Java", "C++", "C", "SQL"],
+    coreJava: ["OOP", "Multithreading", "Collections", "Exception Handling"],
+    backend: ["REST APIs", "RESTful Web Services", "API Integration", "Backend Development"],
+    databases: ["MongoDB", "SQL", "Database Design"],
+    cloudDevOps: ["AWS Lambda", "Nginx"],
+    tools: ["Git", "GitHub", "GitLab", "Bitbucket", "Jenkins", "Postman", "SonarLint", "JIRA", "Redmine", "Robo 3T", "VS Code", "Eclipse"],
+    aiDev: ["OpenAI Codex", "Claude", "Gemini", "Kiro", "NotebookLM", "Model Context Protocol (MCP)"]
   },
   experience: [
     {
@@ -16,11 +21,10 @@ export const resumeData = {
       role: "Software Development Engineer",
       period: "December 2022 – July 2026",
       description: [
-        "Designed and maintained scalable RESTful APIs supporting multiple production systems.",
-        "Automated Git operations by integrating GitHub, GitLab, and Bitbucket APIs for dynamic branch creation.",
-        "Specialized in Java backend development for high-performance, distributed applications.",
-        "Managed MongoDB databases for efficient querying and data maintenance.",
-        "Improved system performance and request handling using Nginx configuration and tuning."
+        "Integrated GitHub, GitLab, and Bitbucket APIs to automate developer operations, improving developer efficiency by 40–50%.",
+        "Implemented customized reporting features tailored to specific customer requirements, contributing to a 30–35% increase in company revenue.",
+        "Participated in code reviews, improving code quality and increasing code reusability by roughly 25–30%.",
+        "Designed and optimized MongoDB schemas and Nginx configuration, improving application request handling performance."
       ]
     },
     {
@@ -36,25 +40,33 @@ export const resumeData = {
   ],
   projects: [
     {
+      name: "Farmer Card App",
+      link: "https://farmer-card-production-2853.up.railway.app/",
+      github: "https://github.com/chiran1612/farmer-card-app-using-thymleaf-spring-boot",
+      role: "Containerized Deployment",
+      description: "Built a Spring Boot and Thymeleaf app, containerized with Docker, and deployed via Docker Hub to Railway.",
+      tech: ["Spring Boot", "Thymeleaf", "Docker", "Railway"]
+    },
+    {
       name: "Qrrectly",
       link: "https://platform.qrrectly.com/login",
       role: "Billing Management System",
-      description: "Designed and developed a backend system for Sales and Purchase domains. Implemented subscription workflows, billing, tax invoices, and vendor management. Architected end-to-end APIs and database schemas.",
-      tech: ["Java 24", "MongoDB", "REST APIs", "Robo 3T"]
+      description: "Backend systems for subscription billing and financial workflows, with customized reporting that grew revenue 30–35%.",
+      tech: ["Java", "MongoDB", "REST APIs", "Nginx"]
     },
     {
       name: "Antrika",
       link: "https://antrika.ai/",
-      role: "Workflow Automation Platform",
-      description: "Implemented backend API layer for Git-based workflow automation. Built AI-driven task optimization features improving system efficiency by 50%.",
-      tech: ["Java 24", "REST APIs", "AWS Lambda", "MongoDB"]
+      role: "Developer Workflow Automation Platform",
+      description: "Automation integrating GitHub, GitLab, and Bitbucket with AI-driven code review, improving developer efficiency 40–50%.",
+      tech: ["Java", "MongoDB", "REST APIs", "GitHub API", "GitLab API", "Bitbucket API"]
     },
     {
-      name: "Tracwick",
+      name: "Trackwick",
       link: "https://go.trackwick.com/",
       role: "Workforce Management Platform",
-      description: "Developed and optimized REST APIs for task, project, and leave management. Improved system performance and scalability for enterprise data loads.",
-      tech: ["Java 24", "REST APIs", "MongoDB", "Postman"]
+      description: "Backend APIs across workforce, attendance, payroll, and task modules, improving scalability and reliability.",
+      tech: ["Java", "REST APIs", "MongoDB", "Postman"]
     },
     {
       name: "Movies App",
@@ -83,14 +95,6 @@ export const resumeData = {
       role: "Spreadsheet Application",
       description: "A functional spreadsheet clone focusing on data structures for cell management and calculations.",
       tech: ["JavaScript", "HTML", "CSS"]
-    },
-    {
-      name: "Farmer Card App",
-      link: "https://farmer-card-production-2853.up.railway.app/",
-      github: "https://github.com/chiran1612/farmer-card-app-using-thymleaf-spring-boot",
-      role: "Containerized Deployment",
-      description: "Built a Spring Boot and Thymeleaf app, containerized with Docker, and deployed via Docker Hub to Railway.",
-      tech: ["Spring Boot", "Thymeleaf", "Docker", "Railway"]
     }
   ],
   education: [
