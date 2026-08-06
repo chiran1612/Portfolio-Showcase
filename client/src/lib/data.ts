@@ -1,6 +1,6 @@
 export const resumeData = {
   name: "Chiranjeev Singh",
-  title: "Java Backend Developer",
+  title: "Software Development Engineer – Java Backend",
   email: "chiranjeevsingh1612@gmail.com",
   phone: "+91 8076388302",
   github: "https://chiran1612.github.io",
@@ -11,7 +11,7 @@ export const resumeData = {
     coreJava: ["OOP", "Multithreading", "Collections", "Exception Handling"],
     backend: ["REST APIs", "RESTful Web Services", "API Integration", "Backend Development"],
     databases: ["MongoDB", "SQL", "Database Design"],
-    cloudDevOps: ["AWS Lambda", "Nginx"],
+    cloudDevOps: ["Docker", "Nginx"],
     tools: ["Git", "GitHub", "GitLab", "Bitbucket", "Jenkins", "Postman", "SonarLint", "JIRA", "Redmine", "Robo 3T", "VS Code", "Eclipse"],
     aiDev: ["OpenAI Codex", "Claude", "Gemini", "Kiro", "NotebookLM", "Model Context Protocol (MCP)"]
   },
@@ -45,28 +45,28 @@ export const resumeData = {
       github: "https://github.com/chiran1612/farmer-card-app-using-thymleaf-spring-boot",
       role: "Containerized Deployment",
       description: "Built a Spring Boot and Thymeleaf app, containerized with Docker, and deployed via Docker Hub to Railway.",
-      tech: ["Spring Boot", "Thymeleaf", "Docker", "Railway"]
+      tech: ["Java", "Spring Boot", "Thymeleaf", "Docker"]
     },
     {
       name: "Qrrectly",
       link: "https://platform.qrrectly.com/login",
       role: "Billing Management System",
-      description: "Backend systems for subscription billing and financial workflows, with customized reporting that grew revenue 30–35%.",
+      description: "Backend systems for subscription billing and financial workflows. Customized reporting features tailored to specific customer requirements grew company revenue 30–35%.",
       tech: ["Java", "MongoDB", "REST APIs", "Nginx"]
     },
     {
       name: "Antrika",
       link: "https://antrika.ai/",
       role: "Developer Workflow Automation Platform",
-      description: "Automation integrating GitHub, GitLab, and Bitbucket with AI-driven code review, improving developer efficiency 40–50%.",
+      description: "Automation integrating GitHub, GitLab, and Bitbucket for developer workflows and repository operations. AI-driven code-review workflows improved developer efficiency by 40–50%.",
       tech: ["Java", "MongoDB", "REST APIs", "GitHub API", "GitLab API", "Bitbucket API"]
     },
     {
       name: "Trackwick",
       link: "https://go.trackwick.com/",
       role: "Workforce Management Platform",
-      description: "Backend APIs across workforce, attendance, payroll, and task modules, improving scalability and reliability.",
-      tech: ["Java", "REST APIs", "MongoDB", "Postman"]
+      description: "Backend APIs across workforce, attendance, payroll, and task management modules. Improved scalability and reliability for business-critical operational workflows.",
+      tech: ["Java", "MongoDB", "REST APIs", "Nginx"]
     },
     {
       name: "Movies App",
@@ -108,7 +108,7 @@ export const resumeData = {
   learning: {
     title: "Currently Learning",
     description: "Through hands-on projects and continuous upskilling.",
-    technologies: ["Spring Boot", "Docker", "Kubernetes", "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)"]
+    technologies: ["Spring Boot", "Kubernetes", "Amazon Web Services (AWS – including Lambda)", "Google Cloud Platform (GCP)"]
   },
   aiExperiments: [
     {
