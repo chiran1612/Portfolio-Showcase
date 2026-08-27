@@ -24,13 +24,29 @@ export function Experience() {
                     <Badge variant="outline" className="w-fit font-mono">{job.period}</Badge>
                   </div>
                   <h4 className="text-lg font-medium text-foreground">{job.company}</h4>
+                  {(job.employmentType || job.location) && (
+                    <p className="text-sm text-muted-foreground mt-1">
+                      {[job.employmentType, job.location].filter(Boolean).join(" · ")}
+                    </p>
+                  )}
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-2 text-muted-foreground list-disc list-inside">
-                    {job.description.map((point, i) => (
-                      <li key={i}>{point}</li>
-                    ))}
-                  </ul>
+                  {job.description.length > 0 && (
+                    <ul className="space-y-2 text-muted-foreground list-disc list-inside">
+                      {job.description.map((point, i) => (
+                        <li key={i}>{point}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {job.skills && job.skills.length > 0 && (
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      {job.skills.map((skill) => (
+                        <Badge key={skill} variant="secondary" className="font-mono text-xs">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             </div>

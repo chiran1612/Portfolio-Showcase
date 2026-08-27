@@ -17,9 +17,30 @@ export const resumeData = {
   },
   experience: [
     {
-      company: "Kaptune Media Pvt Ltd",
-      role: "Software Development Engineer",
-      period: "December 2022 – July 2026",
+      company: "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
+      role: "Software Developer",
+      period: "August 2026 – Present",
+      employmentType: "Full-time",
+      location: "Delhi, India · On-site",
+      skills: ["Spring Boot", "PostgreSQL"],
+      description: []
+    },
+    {
+      company: "Career break",
+      role: "Professional development",
+      period: "July 2026 – Present",
+      location: "Delhi, India",
+      description: [
+        "Taking a planned career break to strengthen my technical skills, deepen my knowledge of Java, Spring Boot, Microservices, Docker, and Cloud technologies, while preparing for my next opportunity in Java development."
+      ]
+    },
+    {
+      company: "TrackOlap",
+      role: "Java Developer",
+      period: "December 2022 – August 2026",
+      employmentType: "Full-time",
+      location: "On-site",
+      skills: ["Unit Testing", "REST APIs"],
       description: [
         "Integrated GitHub, GitLab, and Bitbucket APIs to automate developer operations, improving developer efficiency by 40–50%.",
         "Implemented customized reporting features tailored to specific customer requirements, contributing to a 30–35% increase in company revenue.",
