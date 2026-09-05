@@ -12,7 +12,7 @@ export const resumeData = {
     backend: ["Spring Boot", "REST APIs", "RESTful Web Services", "API Integration", "Backend Development"],
     databases: ["MongoDB", "SQL", "Database Design"],
     cloudDevOps: ["Docker", "Nginx"],
-    tools: ["Git", "GitHub", "GitLab", "Bitbucket", "Jenkins", "Postman", "SonarLint", "JIRA", "Redmine", "Robo 3T", "VS Code", "Eclipse"],
+    tools: ["Git", "GitHub", "GitLab", "Bitbucket", "Jenkins", "Postman", "SonarLint", "JIRA", "Redmine", "Robo 3T", "VS Code", "Sentry for Logs"],
     aiDev: ["OpenAI Codex", "Claude", "Gemini", "Kiro", "NotebookLM", "Model Context Protocol (MCP)"]
   },
   experience: [
@@ -51,13 +51,6 @@ export const resumeData = {
       tech: ["Java", "Spring Boot", "Thymeleaf", "Docker"]
     },
     {
-      name: "Qrrectly",
-      link: "https://platform.qrrectly.com/login",
-      role: "Billing Management System",
-      description: "Backend systems for subscription billing and financial workflows. Customized reporting features tailored to specific customer requirements grew company revenue 30–35%.",
-      tech: ["Java", "MongoDB", "REST APIs", "Nginx"]
-    },
-    {
       name: "Antrika",
       link: "https://antrika.ai/",
       role: "Developer Workflow Automation Platform",
@@ -83,7 +76,7 @@ export const resumeData = {
   learning: {
     title: "Currently Learning",
     description: "Through hands-on projects and continuous upskilling.",
-    technologies: ["Spring Boot", "Kubernetes", "Amazon Web Services (AWS – including Lambda)", "Google Cloud Platform (GCP)"]
+    technologies: ["Spring Boot", "Kubernetes", "Amazon Web Services (AWS – including Lambda)", "MCP", "RAG", "Google Cloud Platform (GCP)"]
   },
   aiExperiments: [
     {
