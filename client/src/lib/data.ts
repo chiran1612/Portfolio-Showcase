@@ -17,49 +17,31 @@ export const resumeData = {
   },
   experience: [
     {
-      company: "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
+      company: "BISAG-N, Ministry of Electronics and Information Technology of India",
       role: "Software Developer",
-      period: "August 2026 – Present",
-      employmentType: "Full-time",
-      location: "Delhi, India · On-site",
-      skills: ["Spring Boot", "PostgreSQL"],
-      description: []
-    },
-    {
-      company: "Career break",
-      role: "Professional development",
-      period: "July 2026 – Present",
-      location: "Delhi, India",
+      period: "2026 – Present",
       description: [
-        "Taking a planned career break to strengthen my technical skills, deepen my knowledge of Java, Spring Boot, Microservices, Docker, and Cloud technologies, while preparing for my next opportunity in Java development."
+        "Working on the CRPF e-File System, developing the Data Form module for dynamic form creation and integration with e-File workflows.",
+        "Developing backend functionality for e-File movement and history tracking across different workflow stages."
       ]
     },
     {
-      company: "TrackOlap",
-      role: "Java Developer",
-      period: "December 2022 – August 2026",
-      employmentType: "Full-time",
-      location: "On-site",
-      skills: ["Unit Testing", "REST APIs"],
+      company: "Kaptune Media Pvt Ltd",
+      role: "Software Development Engineer",
+      period: "2022 – 2026",
       description: [
-        "Integrated GitHub, GitLab, and Bitbucket APIs to automate developer operations, improving developer efficiency by 40–50%.",
-        "Implemented customized reporting features tailored to specific customer requirements, contributing to a 30–35% increase in company revenue.",
-        "Participated in code reviews, improving code quality and increasing code reusability by roughly 25–30%.",
-        "Designed and optimized MongoDB schemas and Nginx configuration, improving application request handling performance."
-      ]
-    },
-    {
-      company: "Pepcoding",
-      role: "Data Structures, Algorithms & Web Development Intern",
-      period: "December 2021 – June 2022",
-      description: [
-        "Completed an intensive 6-month internship focusing on core Data Structures, Algorithms, and Web Development.",
-        "Strengthened problem-solving capabilities and built foundational web applications.",
-        "Demonstrated strong teamwork and coordination skills while working with peers on technical assignments."
+        "Integrated GitHub, GitLab, and Bitbucket APIs to automate developer workflows, improving developer efficiency by 40–50%.",
+        "Built customized reporting features and optimized MongoDB/Nginx configurations, contributing to revenue growth and improved backend performance."
       ]
     }
   ],
   projects: [
+    {
+      name: "CRPF e-File System",
+      role: "Enterprise e-File Application",
+      description: "Enterprise e-File application for digital file creation, processing, movement, and workflow management. Working on the Data Form module for dynamic form creation and e-File movement history across workflow stages.",
+      tech: ["Java", "Spring", "PostgreSQL"]
+    },
     {
       name: "Farmer Card App",
       link: "https://farmer-card-production-2853.up.railway.app/",
@@ -88,34 +70,6 @@ export const resumeData = {
       role: "Workforce Management Platform",
       description: "Backend APIs across workforce, attendance, payroll, and task management modules. Improved scalability and reliability for business-critical operational workflows.",
       tech: ["Java", "MongoDB", "REST APIs", "Nginx"]
-    },
-    {
-      name: "Movies App",
-      link: "https://github.com/chiran1612",
-      role: "React Web App",
-      description: "A movies web app built using React class components to browse and discover films.",
-      tech: ["React.js", "HTML", "CSS", "Bootstrap"]
-    },
-    {
-      name: "Jira Clone",
-      link: "https://github.com/chiran1612",
-      role: "Task Management Web App",
-      description: "A web application that implements CRUD operations for task management using vanilla JS and local storage.",
-      tech: ["JavaScript", "HTML", "CSS", "Local Storage"]
-    },
-    {
-      name: "To-do List",
-      link: "https://github.com/chiran1612",
-      role: "Productivity App",
-      description: "A simple and effective task management application to manage everyday tasks with persistent storage.",
-      tech: ["JavaScript", "HTML", "CSS", "jsdom"]
-    },
-    {
-      name: "Excel Clone",
-      link: "https://github.com/chiran1612",
-      role: "Spreadsheet Application",
-      description: "A functional spreadsheet clone focusing on data structures for cell management and calculations.",
-      tech: ["JavaScript", "HTML", "CSS"]
     }
   ],
   education: [

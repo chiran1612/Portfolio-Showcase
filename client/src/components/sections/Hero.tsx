@@ -80,7 +80,7 @@ export function Hero() {
                   <div className="pl-4">
                     "backend": ["Spring Boot", "Java", "REST APIs"],<br/>
                     "database": ["MongoDB", "SQL"],<br/>
-                    "devops": ["Docker", "AWS Lambda", "Nginx"]
+                    "devops": ["Docker", "Nginx"]
                   </div>
                   {`}`}
                 </div>
