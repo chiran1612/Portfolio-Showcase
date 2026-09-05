@@ -9,7 +9,7 @@ export const resumeData = {
   skills: {
     languages: ["Java", "C++", "C", "SQL"],
     coreJava: ["OOP", "Multithreading", "Collections", "Exception Handling"],
-    backend: ["REST APIs", "RESTful Web Services", "API Integration", "Backend Development"],
+    backend: ["Spring Boot", "REST APIs", "RESTful Web Services", "API Integration", "Backend Development"],
     databases: ["MongoDB", "SQL", "Database Design"],
     cloudDevOps: ["Docker", "Nginx"],
     tools: ["Git", "GitHub", "GitLab", "Bitbucket", "Jenkins", "Postman", "SonarLint", "JIRA", "Redmine", "Robo 3T", "VS Code", "Eclipse"],
@@ -40,7 +40,7 @@ export const resumeData = {
       name: "CRPF e-File System",
       role: "Enterprise e-File Application",
       description: "Enterprise e-File application for digital file creation, processing, movement, and workflow management. Working on the Data Form module for dynamic form creation and e-File movement history across workflow stages.",
-      tech: ["Java", "Spring", "PostgreSQL"]
+      tech: ["Java", "Spring Boot", "PostgreSQL"]
     },
     {
       name: "Farmer Card App",

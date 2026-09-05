@@ -7,6 +7,11 @@ import { motion } from "framer-motion";
 export function Skills() {
   const categories = [
     {
+      title: "Backend Technologies",
+      icon: <Server className="w-6 h-6 text-blue-500" />,
+      skills: resumeData.skills.backend
+    },
+    {
       title: "Languages",
       icon: <Code className="w-6 h-6 text-primary" />,
       skills: resumeData.skills.languages
@@ -15,11 +20,6 @@ export function Skills() {
       title: "Core Java",
       icon: <Coffee className="w-6 h-6 text-orange-500" />,
       skills: resumeData.skills.coreJava
-    },
-    {
-      title: "Backend Technologies",
-      icon: <Server className="w-6 h-6 text-blue-500" />,
-      skills: resumeData.skills.backend
     },
     {
       title: "Databases",
