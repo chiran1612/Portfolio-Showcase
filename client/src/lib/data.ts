@@ -37,6 +37,12 @@ export const resumeData = {
   ],
   projects: [
     {
+      name: "BSF eHRMS System",
+      role: "HRMS Platform",
+      description: "HRMS platform for digitized personnel management and administrative workflows. Implemented the Rule Authorization Module to manage unit mobility across Action In (ATO-IN), Action Out (ATO-OUT), Extension, and Request processes.",
+      tech: ["Java", "Spring Boot", "PostgreSQL", "REST APIs"]
+    },
+    {
       name: "CRPF e-File System",
       role: "Enterprise e-File Application",
       description: "Enterprise e-File application for digital file creation, processing, movement, and workflow management. Working on the Data Form module for dynamic form creation and e-File movement history across workflow stages.",
@@ -76,7 +82,7 @@ export const resumeData = {
   learning: {
     title: "Currently Learning",
     description: "Through hands-on projects and continuous upskilling.",
-    technologies: ["Spring Boot", "Kubernetes", "Amazon Web Services (AWS – including Lambda)", "MCP", "RAG", "Google Cloud Platform (GCP)"]
+    technologies: ["Kubernetes", "Amazon Web Services (AWS – including Lambda)", "MCP", "RAG", "Google Cloud Platform (GCP)"]
   },
   aiExperiments: [
     {
