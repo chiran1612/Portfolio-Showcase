@@ -79,7 +79,7 @@ export const resumeData = {
     {
       school: "Guru Tegh Bahadur Institute of Technology, New Delhi",
       degree: "B.Tech in Information Technology",
-      period: "2018 – 2023",
+      period: "2019 – 2023",
       location: "New Delhi, India",
       grade: "CGPA: 9.0"
     }
