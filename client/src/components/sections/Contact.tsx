@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { resumeData } from "@/lib/data";
 
 const formSchema = z.object({
@@ -97,7 +97,46 @@ export function Contact() {
                   <p className="text-muted-foreground">New Delhi, India</p>
                 </div>
               </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <Linkedin className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-semibold">LinkedIn</h3>
+                  <a
+                    href={resumeData.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline break-all"
+                  >
+                    View LinkedIn Profile
+                  </a>
+                </div>
+              </div>
             </div>
+
+            {resumeData.applicantMetadata && (
+              <Card className="bg-card/50 border-border/60">
+                <CardHeader>
+                  <CardTitle className="text-lg">Applicant Details</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4 text-sm">
+                  <div>
+                    <p className="font-semibold">Notice Period</p>
+                    <p className="text-muted-foreground">{resumeData.applicantMetadata.noticePeriod}</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold">Work Authorization</p>
+                    <p className="text-muted-foreground">{resumeData.applicantMetadata.workAuthorization}</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold">Expected Salary / CTC</p>
+                    <p className="text-muted-foreground">{resumeData.applicantMetadata.expectedCTC}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
           </div>
 
           {/* Contact Form */}

@@ -35,6 +35,9 @@ export function Education() {
                       <div>
                         <h3 className="font-semibold text-lg">{edu.degree}</h3>
                         <p className="text-muted-foreground">{edu.school}</p>
+                        {edu.location && (
+                          <p className="text-sm text-muted-foreground mt-1">{edu.location}</p>
+                        )}
                         {edu.grade && (
                           <p className="text-sm font-mono text-primary mt-2">{edu.grade}</p>
                         )}

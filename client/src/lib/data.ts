@@ -19,7 +19,9 @@ export const resumeData = {
     {
       company: "BISAG-N, Ministry of Electronics and Information Technology of India",
       role: "Software Developer",
-      period: "2026 – Present",
+      period: "August 2026 – Present",
+      employmentType: "Full-time",
+      location: "New Delhi, India",
       description: [
         "Working on the CRPF e-File System, developing the Data Form module for dynamic form creation and integration with e-File workflows.",
         "Developing backend functionality for e-File movement and history tracking across different workflow stages."
@@ -28,7 +30,9 @@ export const resumeData = {
     {
       company: "Kaptune Media Pvt Ltd",
       role: "Software Development Engineer",
-      period: "2022 – 2026",
+      period: "December 2022 – July 2026",
+      employmentType: "Full-time",
+      location: "New Delhi, India",
       description: [
         "Integrated GitHub, GitLab, and Bitbucket APIs to automate developer workflows, improving developer efficiency by 40–50%.",
         "Built customized reporting features and optimized MongoDB/Nginx configurations, contributing to revenue growth and improved backend performance."
@@ -76,6 +80,7 @@ export const resumeData = {
       school: "Guru Tegh Bahadur Institute of Technology, New Delhi",
       degree: "B.Tech in Information Technology",
       period: "2018 – 2023",
+      location: "New Delhi, India",
       grade: "CGPA: 9.0"
     }
   ],
@@ -83,6 +88,11 @@ export const resumeData = {
     title: "Currently Learning",
     description: "Through hands-on projects and continuous upskilling.",
     technologies: ["Kubernetes", "Amazon Web Services (AWS – including Lambda)", "MCP", "RAG", "Google Cloud Platform (GCP)"]
+  },
+  applicantMetadata: {
+    noticePeriod: "1 month (negotiable)",
+    workAuthorization: "Available in India and overseas (discussion required)",
+    expectedCTC: "Open to discussion"
   },
   aiExperiments: [
     {
