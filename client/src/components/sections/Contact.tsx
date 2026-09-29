@@ -9,6 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { useToast } from "@/hooks/use-toast";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { resumeData } from "@/lib/data";
+import { VisitorEmailCapture } from "@/components/sections/VisitorEmailCapture";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name is required"),
@@ -137,6 +138,8 @@ export function Contact() {
                 </CardContent>
               </Card>
             )}
+
+            <VisitorEmailCapture />
           </div>
 
           {/* Contact Form */}

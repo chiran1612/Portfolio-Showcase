@@ -2,6 +2,7 @@ import { resumeData } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Terminal } from "lucide-react";
 import { motion } from "framer-motion";
+import { SiteSearch } from "@/components/site/SiteSearch";
 
 export function Hero() {
   return (
@@ -32,9 +33,13 @@ export function Hero() {
             {resumeData.title}
           </h2>
           
-          <p className="text-muted-foreground max-w-lg mb-8 leading-relaxed">
+          <p className="text-muted-foreground max-w-lg mb-6 leading-relaxed">
             {resumeData.summary}
           </p>
+
+          <div className="mb-6 max-w-lg">
+            <SiteSearch />
+          </div>
           
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="group" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
