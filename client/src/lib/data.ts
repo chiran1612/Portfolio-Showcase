@@ -3,7 +3,7 @@ export const resumeData = {
   title: "Software Development Engineer – Java Backend",
   email: "chiranjeevsingh1612@gmail.com",
   phone: "+91 8076388302",
-  github: "https://chiran1612.github.io",
+  github: "https://github.com/chiran1612",
   linkedin: "https://www.linkedin.com/in/chiranjeevsingh1612",
   summary: "Java Backend Developer with 3+ years of experience building scalable REST APIs, Spring Boot-oriented backend services, and enterprise platforms using Java and MongoDB. Skilled in API integration, backend performance optimization, Nginx configuration, containerized deployment with Docker, and AI-assisted development workflows.",
   skills: {

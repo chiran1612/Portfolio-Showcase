@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
-import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { resumeData } from "@/lib/data";
 
 const formSchema = z.object({
@@ -111,6 +111,23 @@ export function Contact() {
                     className="text-primary hover:underline break-all"
                   >
                     View LinkedIn Profile
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <Github className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-semibold">GitHub</h3>
+                  <a
+                    href={resumeData.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline break-all"
+                  >
+                    View GitHub Profile
                   </a>
                 </div>
               </div>
