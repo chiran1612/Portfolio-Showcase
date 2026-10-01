@@ -72,9 +72,9 @@ export function Hero() {
               <div className="mb-4">
                 <span className="text-primary">user@chiran:~$</span> java -version
                 <div className="text-foreground mt-1">
-                  java version "24.0.1" 2025-04-15<br/>
-                  Java(TM) SE Runtime Environment (build 24.0.1+9)<br/>
-                  Java HotSpot(TM) 64-Bit Server VM (build 24.0.1+9)
+                  java version "27" 2026-09-15<br/>
+                  Java(TM) SE Runtime Environment (build 27+35)<br/>
+                  Java HotSpot(TM) 64-Bit Server VM (build 27+35)
                 </div>
               </div>
               
